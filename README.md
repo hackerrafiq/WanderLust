@@ -1,15 +1,24 @@
+🌍 WanderLust
 WanderLust is a full-stack web application inspired by Airbnb, designed for travelers to explore, book, and review accommodations. Built using the MERN stack (MongoDB, Express.js, React, Node.js), this platform enables users to browse through various listings, view detailed descriptions, and make reservations for their next vacation. Users can also leave reviews for the places they’ve visited, fostering a community of feedback and recommendations.
 
-Features
-Responsive Design: The application is mobile-friendly and fully responsive, ensuring a seamless user experience across all devices.
-Explore Listings: Browse through a wide range of listings, with detailed descriptions, prices, images, and availability.
-Search Functionality: Search for listings by location, price, or other filters to find the perfect place for your next stay.
-Booking System: Users can book listings and view their reservations.
-Reviews and Ratings: Users can leave reviews and ratings for the places they have stayed.
-User Authentication: Secure sign-up and login functionality for users to create and manage their bookings and reviews.
-Admin Dashboard: Admins have access to manage listings, including creating, updating, and deleting accommodations.
-Tech Stack
-MongoDB: A NoSQL database used to store user information, listings, reviews, and bookings.
-Express.js: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-React: A JavaScript library for building user interfaces, providing the front-end logic for rendering the listings, reviews, and other components.
-Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine, used to power the server-side logic of the application.
+🔗 Live Demo: https://wanderlust-lrzt.onrender.com/listings
+
+✨ Features
+Responsive Design: Mobile-friendly and fully responsive for seamless experience across all devices.
+Explore Listings: View detailed listings with descriptions, pricing, images, and availability.
+Search Functionality: Filter listings by location, price, and other criteria.
+Booking System: Book accommodations and view/manage your reservations.
+Reviews and Ratings: Leave feedback and ratings for listings you’ve stayed at.
+User Authentication: Sign-up and login to manage your bookings and reviews securely.
+Admin Dashboard: Admins can create, update, and delete listings.
+🛠 Tech Stack
+MongoDB: NoSQL database for storing users, listings, bookings, and reviews.
+Express.js: Web framework for handling server-side logic and APIs.
+React: Frontend library for building the user interface.
+Node.js: Runtime environment for building scalable server-side applications.
+📁 Project Structure (MVC Architecture)
+The application follows the MVC (Model-View-Controller) pattern:
+
+Models: Define schemas for Users, Listings, Reviews, and Bookings (MongoDB + Mongoose).
+Views (React): React components handle all UI rendering and frontend logic.
+Controllers (Express): Handle business logic and route responses between client and database.
